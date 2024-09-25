@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Instagram</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <section class="logo d-flex align-item-center">
+            <img src="./Images/insta-logo-black.png" alt="Instagram Logo" width="120px" title="Instagram " />
+        </section>
+        <nav>
+            <ul>
+                <section class="d-flex align-item-center">
+                    <i class="fa-solid fa-house" title="Home"></i>
+                    <li>Home</li>
+                </section>
+                <section class="d-flex align-item-center">
+                    <i class="fa-solid fa-magnifying-glass" title="Search"></i>
+                    <li>Search</li>
+                </section>
+                <section class="d-flex align-item-center">
+                    <i class="fa-regular fa-compass" title="Explore"></i>
+                    <li>Explore</li>
+                </section>
+                <section class="d-flex align-item-center">
+                    <i class="fa-regular fa-circle-play" title="Reels"></i>
+                    <li>Reels</li>
+                </section>
+                <section class="d-flex align-item-center">
+                    <i class="fa-brands fa-facebook-messenger" title="Messages"></i>
+                    <li>Messages</li>
+                </section>
+                <section class="d-flex align-item-center">
+                    <i class="fa-regular fa-heart" title="Notifications"></i>
+                    <li>Notifications</li>
+                </section>
+                <section class="d-flex align-item-center">
+                    <i class="fa-regular fa-square-plus" title="Create"></i>
+                    <li>Create</li>
+                </section>
+                <section class="d-flex align-item-center">
+                    <i class="fa-regular fa-circle-user" title="Profile"></i>
+                    <li>Profile</li>
+                </section>
+            </ul>
+        </nav>
+        <section class="more-option-sec">
+            <section class="d-flex align-item-center">
+                <i class="fa-brands fa-threads" title="Threads"></i>
+                <button>Threads</button>
+            </section>
+            <section class="d-flex align-item-center">
+                <i class="fa-solid fa-bars" title="More"></i>
+                <button>More</button>
+            </section>
+        </section>
+    </header>
+
+    <!-- Main Section -->
+    <main>
+        <section class="main-home">
+            <section class="stories_sec">
+                <div class="story_div">
+                    <div class="story">
+                        <img src="./Images/user-default-img.jpg" alt="" />
+                    </div>
+                    <span>Hello</span>
+                </div>
+                <div class="story_div">
+                    <div class="story">
+                        <img src="./Images/user-default-img.jpg" alt="" />
+                    </div>
+                    <span>Hello</span>
+                </div>
+                <div class="story_div">
+                    <div class="story">
+                        <img src="./Images/user-default-img.jpg" alt="" />
+                    </div>
+                    <span>Hello</span>
+                </div>
+                <div class="story_div">
+                    <div class="story">
+                        <img src="./Images/user-default-img.jpg" alt="" />
+                    </div>
+                    <span>Hello</span>
+                </div>
+                <div class="story_div">
+                    <div class="story">
+                        <img src="./Images/user-default-img.jpg" alt="" />
+                    </div>
+                    <span>Hello</span>
+                </div>
+                <div class="story_div">
+                    <div class="story">
+                        <img src="./Images/user-default-img.jpg" alt="" />
+                    </div>
+                    <span>Hello</span>
+                </div>
+            </section>
+            <section class="post_sec">
+                <div class="post_profile_sec">
+                    <div class="user-detail">
+                        <img src="./Images/user-default-img.jpg" alt="" />
+                        <div class="username_info">
+                            <h5>syedsufiyan1718</h5>
+                            <span>2h</span>
+                        </div>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-ellipsis-vertical"></i>
+                    </div>
+                </div>
+                <div class="post_img">
+                    <img src="./Images/whatsapp-images.jpg" alt="" />
+                </div>
+                <div class="post_like_sec">
+                    <div class="post_like_sec_div">
+                        <i class="fa-regular fa-heart" id="like" onclick="like()"></i>
+                        <i class="fa-regular fa-comment"></i>
+                        <i class="fa-regular fa-paper-plane"></i>
+                    </div>
+                    <div>
+                        <i class="fa-regular fa-bookmark"></i>
+                    </div>
+                </div>
+                <div class="post_like_counts" id="countDiv">0 like</div>
+                <div class="post_caption_sec">
+                    {§ Focus on Your Goals ©} 🪐 "Keep your eyes on your goals, for
+                    every achievement begins with a clear vision."
+                </div>
+                <div class="post_comments_counts">View all 61 comments</div>
+            </section>
+        </section>
+        <aside>
+            <section></section>
+            <section></section>
+        </aside>
+    </main>
+
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
